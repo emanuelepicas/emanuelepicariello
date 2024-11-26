@@ -17,8 +17,8 @@ function App() {
       <About />
       <Projects />
       <Certifications />
-      <Blog />
       <Services />
+      <Blog />
       <Contact />
       <Footer />
     </div>

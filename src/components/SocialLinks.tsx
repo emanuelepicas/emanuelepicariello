@@ -27,7 +27,7 @@ const socialLinks = [
   },
   {
     name: 'TikTok',
-    icon: Youtube, // Using Youtube as placeholder since Lucide doesn't have TikTok
+    icon: Youtube,
     url: 'https://www.tiktok.com/@emanuele.picariello_',
     color: 'hover:text-black'
   },
@@ -47,7 +47,7 @@ const socialLinks = [
 
 export default function SocialLinks() {
   return (
-    <div className="flex flex-wrap justify-center gap-6 py-8">
+    <div className="flex flex-wrap justify-center gap-8 py-8">
       {socialLinks.map((link) => (
         <a
           key={link.name}
@@ -57,7 +57,7 @@ export default function SocialLinks() {
           className={`transform transition-all duration-200 ${link.color} hover:scale-110`}
           aria-label={link.name}
         >
-          <link.icon size={24} />
+          <link.icon size={32} className="text-white hover:text-opacity-80" />
         </a>
       ))}
     </div>

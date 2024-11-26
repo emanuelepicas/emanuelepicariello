@@ -3,22 +3,22 @@ import ProjectCard from './ProjectCard';
 
 const projects = [
   {
-    title: 'Security Podcast',
-    description: 'Weekly discussions on the latest cybersecurity trends and best practices.',
-    image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-4.0.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
+    title: 'Podcast | Global Security Voices',
+    description: 'Welcome to Global Security Voices, where we explore the latest stories, trends, and insights from the world of cybersecurity.',
+    image: '../src/assets/images/gsv.png',
     link: '#'
   },
   {
-    title: 'Certifications',
-    description: 'Professional certifications and achievements in cybersecurity.',
-    image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
+    title: 'Podcast: Global Perspective Stories',
+    description: 'We are entering a challenging period in our society, and as humans, it’s crucial to cultivate core values that unite us.',
+    image: '../src/assets/images/gps.png',
     link: '#'
   },
   {
-    title: 'AI & Tech',
-    description: 'Exploring the intersection of AI and cybersecurity.',
-    image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
-    link: '#'
+    title: 'YouTube',
+    description: 'Empower. Secure. Evolve. | Connecting with the world and building a secure future',
+    image: '../src/assets/images/YouTube.png',
+    link: 'https://www.youtube.com/@emanuelepicariello'
   }
 ];
 

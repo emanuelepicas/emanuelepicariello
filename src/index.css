@@ -21,6 +21,14 @@ html {
   .social-icon {
     @apply transform transition-all duration-200 hover:scale-110;
   }
+
+  .hero-title {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .social-links-container {
+    @apply mb-16 md:mb-24;
+  }
 }
 
 /* Animation for nav items */
@@ -40,4 +48,38 @@ html {
 .nav-link:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+/* Responsive text adjustments */
+@media screen and (max-width: 1920px) {
+  .hero-title {
+    margin-top: 12rem;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .hero-title {
+    margin-top: 10rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-title {
+    margin-top: 8rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .hero-title {
+    margin-top: 7rem;
+  }
+  
+  .hero-title p {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+  }
+
+  .social-links-container {
+    margin-bottom: 4rem;
+  }
 }

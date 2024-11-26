@@ -16,7 +16,7 @@ const articles = [
   {
     title: 'Security Best Practices',
     description: 'Comprehensive guides on implementing security measures in modern applications.',
-    image: 'https://images.unsplash.com/photo-1563986768494-4dee9223994e?ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80',
+    image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=8',
     type: 'Article'
   }
 ];
@@ -44,7 +44,7 @@ export default function Blog() {
                 <h3 className="text-xl font-semibold mb-2">{article.title}</h3>
                 <p className="text-gray-600 mb-4">{article.description}</p>
                 <button className="inline-block px-6 py-2 bg-[#0a2b1d] text-white rounded-lg hover:bg-[#1a4a35] transition-colors">
-                  Read More
+                  Coming Soon
                 </button>
               </div>
             </div>

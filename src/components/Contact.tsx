@@ -10,46 +10,11 @@ const contactLinks = [
     label: 'info@emanuelepicariello.com'
   },
   {
-    name: 'YouTube',
-    icon: Youtube,
-    url: 'https://youtube.com/@emanuelepicariello',
-    color: 'hover:text-red-600',
-    label: '@emanuelepicariello'
-  },
-  {
     name: 'LinkedIn',
     icon: Linkedin,
     url: 'https://www.linkedin.com/in/emanuele-picariello-520231199',
     color: 'hover:text-blue-600',
     label: 'Emanuele Picariello'
-  },
-  {
-    name: 'Twitter',
-    icon: Twitter,
-    url: 'https://twitter.com/EmanuelePicari5',
-    color: 'hover:text-blue-400',
-    label: '@EmanuelePicari5'
-  },
-  {
-    name: 'Instagram',
-    icon: Instagram,
-    url: 'https://www.instagram.com/youtube.emanuele.picariello',
-    color: 'hover:text-pink-600',
-    label: '@youtube.emanuele.picariello'
-  },
-  {
-    name: 'GitHub',
-    icon: Github,
-    url: 'https://github.com/emanuelepicas',
-    color: 'hover:text-gray-800',
-    label: '@emanuelepicas'
-  },
-  {
-    name: 'Buy Me a Coffee',
-    icon: Coffee,
-    url: 'https://buymeacoffee.com/emanuelepicariello',
-    color: 'hover:text-yellow-600',
-    label: 'Support my work'
   }
 ];
 
@@ -57,7 +22,7 @@ export default function Contact() {
   return (
     <section id="contact" className="py-24 bg-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-4xl font-bold mb-12 text-center">Get in Touch</h2>
+        <h2 className="text-4xl font-bold mb-12 text-center">Let's get in Touch</h2>
         <div className="grid gap-6">
           {contactLinks.map((link) => (
             <a

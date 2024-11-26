@@ -21,7 +21,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <div className="w-8 h-8 rounded-full overflow-hidden">
               <img 
-                src="https://emanuelepicariello.com/about.png"
+                src="../src/assets/images/logo.png"
                 alt="EP"
                 className="w-full h-full object-cover"
               />

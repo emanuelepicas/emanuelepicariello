@@ -5,19 +5,19 @@ const projects = [
   {
     title: 'Podcast | Global Security Voices',
     description: 'Welcome to Global Security Voices, where we explore the latest stories, trends, and insights from the world of cybersecurity.',
-    image: '../src/assets/images/gsv.png',
+    image: '/images/gsv.png',
     link: '#'
   },
   {
     title: 'Podcast: Global Perspective Stories',
     description: 'We are entering a challenging period in our society, and as humans, it’s crucial to cultivate core values that unite us.',
-    image: '../src/assets/images/gps.png',
+    image: '/images/gps.png',
     link: '#'
   },
   {
     title: 'YouTube',
     description: 'Empower. Secure. Evolve. | Connecting with the world and building a secure future',
-    image: '../src/assets/images/YouTube.png',
+    image: '/images/YouTube.png',
     link: 'https://www.youtube.com/@emanuelepicariello'
   }
 ];

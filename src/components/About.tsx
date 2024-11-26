@@ -8,7 +8,7 @@ export default function About() {
           <div className="md:w-1/3">
             <div className="w-64 h-64 rounded-full overflow-hidden shadow-xl mx-auto">
               <img
-                src="../src/assets/images/profile.png"
+                src="/images/profile.png"
                 alt="Emanuele Picariello"
                 className="w-full h-full object-cover"
               />

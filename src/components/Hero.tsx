@@ -14,8 +14,8 @@ export default function Hero() {
   }, []);
 
   const backgroundImageUrl = isMobile
-    ? '../src/assets/images/BannerWebVertical.png'
-    : '../src/assets/images/bannerweb.png';
+    ? '/images/BannerWebVertical.png'
+    : '/images/bannerweb.png';
 
   return (
     <div className="relative min-h-screen">

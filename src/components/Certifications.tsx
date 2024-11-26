@@ -17,7 +17,7 @@ const certifications = [
     title: 'eWPT',
     link: 'https://verified.elearnsecurity.com/certificates/a0d3ea6a-4083-47ce-a001-8813d8c1c260',
     description: 'Covers comprehensive knowledge of web application penetration testing methodologies.',
-    image: '/images/eWPTx.png'
+    image: '/images/eWPTX.png'
   },
   {
     title: 'eWPTX',

@@ -1,3 +1,3 @@
 # Website
 
-[Personal Website ⚡️](https://emanuelepicariello.com/)
+[Personal Website | Landing Page | Portfoglio](https://emanuelepicariello.com/)

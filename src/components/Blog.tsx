@@ -42,7 +42,7 @@ export default function Blog() {
                   {article.type}
                 </span>
                 <h3 className="text-xl font-semibold mb-2">{article.title}</h3>
-                <p className="text-gray-600 mb-4">{article.description}</p>
+                <p className="text-gray-600 mb-4 line-clamp-2">{article.description}</p>
                 <button className="inline-block px-6 py-2 bg-[#0a2b1d] text-white rounded-lg hover:bg-[#1a4a35] transition-colors">
                   Coming Soon
                 </button>

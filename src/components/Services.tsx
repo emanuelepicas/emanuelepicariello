@@ -1,20 +1,25 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 const services = [
   {
     title: 'Cyber Security Consultancy',
     description: 'Expert guidance on cybersecurity strategy and implementation.',
-    image: 'https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80'
+    image: 'https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80',
+    link: '/services/consultancy'
   },
   {
     title: 'Red Teaming',
     description: 'Advanced adversary simulation and security assessment.',
-    image: 'https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80'
+    image: 'https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80',
+    link: '/services/red-team'
   },
   {
     title: 'Penetration Testing',
     description: 'Comprehensive security testing including Black Box, Gray Box, Crystal Box, and White Box methodologies.',
-    image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80'
+    image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80',
+    link: '/services/penetration'
   }
 ];
 
@@ -36,10 +41,13 @@ export default function Services() {
               />
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
-                <p className="text-gray-600 mb-4">{service.description}</p>
-                <button className="inline-block px-6 py-2 bg-[#0a2b1d] text-white rounded-lg hover:bg-[#1a4a35] transition-colors">
-                  Coming Soon
-                </button>
+                <p className="text-gray-600 mb-4 line-clamp-2">{service.description}</p>
+                <Link
+                  to={service.link}
+                  className="inline-block px-6 py-2 bg-[#0a2b1d] text-white rounded-lg hover:bg-[#1a4a35] transition-colors"
+                >
+                  Book now
+                </Link>
               </div>
             </div>
           ))}

@@ -3,16 +3,16 @@ import ProjectCard from './ProjectCard';
 
 const projects = [
   {
-    title: 'Podcast | Global Security Voices',
+    title: 'Global Security Voices',
     description: 'Welcome to Global Security Voices, where we explore the latest stories, trends, and insights from the world of cybersecurity.',
     image: '/images/gsv.png',
-    link: '#'
+    link: '/projects/global-security-voices'
   },
   {
-    title: 'Podcast: Global Perspective Stories',
+    title: 'Global Perspective Stories',
     description: 'We are entering a challenging period in our society, and as humans, it’s crucial to cultivate core values that unite us.',
     image: '/images/gps.png',
-    link: '#'
+    link: '/projects/global-perspective-stories'
   },
   {
     title: 'YouTube',

@@ -17,7 +17,7 @@ const services = [
   },
   {
     title: 'Penetration Testing',
-    description: 'Comprehensive security testing including Black Box, Gray Box, Crystal Box, and White Box methodologies.',
+    description: 'Comprehensive security testing including Black Box, White Box, Crystal Box, and White Box methodologies.',
     image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80',
     link: '/services/penetration'
   }

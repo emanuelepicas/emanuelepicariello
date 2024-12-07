@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
 const certifications = [
   {
@@ -50,28 +51,46 @@ export default function Certifications() {
     <section id="certifications" className="py-24 bg-gray-50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl font-bold mb-12 text-center">Certifications</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {certifications.map((cert) => (
-            <a
+        <motion.div
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+          initial="hidden"
+          animate="visible"
+          variants={{
+            hidden: { opacity: 0, scale: 0.8 },
+            visible: {
+              opacity: 1,
+              scale: 1,
+              transition: { delay: 0.2, staggerChildren: 0.2 }
+            }
+          }}
+        >
+          {certifications.map((cert, index) => (
+            <motion.a
               key={cert.title}
               href={cert.link}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white rounded-xl shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-105"
+              whileHover={{ scale: 1.1 }}
+              variants={{
+                hidden: { opacity: 0, y: 20 },
+                visible: { opacity: 1, y: 0 }
+              }}
             >
               <div className="p-6">
-                <img
+                <motion.img
                   loading="lazy"
                   src={cert.image}
                   alt={cert.title}
                   className="w-24 h-24 mx-auto mb-4"
+                  whileHover={{ rotate: 5 }}
                 />
                 <h3 className="text-xl font-semibold mb-2 text-center">{cert.title}</h3>
                 <p className="text-gray-600 text-center">{cert.description}</p>
               </div>
-            </a>
+            </motion.a>
           ))}
-        </div>
+        </motion.div>
       </div>
     </section>
   );

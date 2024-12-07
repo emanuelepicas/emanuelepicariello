@@ -32,7 +32,7 @@ export default function Hero() {
       <div className="absolute inset-0 flex flex-col">
         <div className="flex-1 flex flex-col">
           <div className="text-center text-white px-4 hero-title mt-32 md:mt-40 lg:mt-48">
-            <p className="text-3xl md:text-4xl lg:text-5xl font-light tracking-wide leading-relaxed">
+            <p className="text-4xl md:text-3xl lg:text-4xl font-light tracking-wide leading-relaxed">
               Cybersecurity Professional | Tech Enthusiast | Content Creator
             </p>
           </div>

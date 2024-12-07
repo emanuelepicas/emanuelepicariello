@@ -15,38 +15,39 @@ import ConsultancyServices from './components/ConsultancyServices';
 import CalendarBooking from './components/CalendarBooking';
 import GlobalSecurityVoices from './components/GlobalSecurityVoices';
 import GlobalPerspectiveStories from './components/GlobalPerspectiveStories';
-import ScrollToTop from './components/ScrollToTop'; // Import the ScrollToTop component
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <Router>
-      <ScrollToTop /> {/* Add ScrollToTop here */}
-      <div className="min-h-screen bg-white">
+      <ScrollToTop />
+      <div className="min-h-screen flex flex-col"> {/* Flexbox container */}
         <Navbar />
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <>
-                <Hero />
-                <About />
-                <Certifications />
-                <Services />
-                <Projects />
-                <Blog />
-                <Contact />
-              </>
-            }
-          />
-          <Route path="/about" element={<About />} /> {/* Ensure About route exists if accessible via /about */}
-          <Route path="/services/red-team" element={<RedTeamServices />} />
-          <Route path="/services/penetration" element={<PenetrationServices />} />
-          <Route path="/services/consultancy" element={<ConsultancyServices />} />
-          <Route path="/book-consultation" element={<CalendarBooking />} />
-          <Route path="/projects/global-security-voices" element={<GlobalSecurityVoices />} />
-          <Route path="/projects/global-perspective-stories" element={<GlobalPerspectiveStories />} />
-        </Routes>
-        <Footer />
+        <div className="flex-grow"> {/* Content area with dynamic height */}
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <>
+                  <Hero />
+                  <About />
+                  <Certifications />
+                  <Services />
+                  <Projects />
+                  <Blog />
+                  <Contact />
+                </>
+              }
+            />
+            <Route path="/services/red-team" element={<RedTeamServices />} />
+            <Route path="/services/penetration" element={<PenetrationServices />} />
+            <Route path="/services/consultancy" element={<ConsultancyServices />} />
+            <Route path="/book-consultation" element={<CalendarBooking />} />
+            <Route path="/projects/global-security-voices" element={<GlobalSecurityVoices />} />
+            <Route path="/projects/global-perspective-stories" element={<GlobalPerspectiveStories />} />
+          </Routes>
+        </div>
+        <Footer /> {/* Footer always at the bottom */}
       </div>
     </Router>
   );

@@ -8,6 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+    "sitemap": "generate-sitemap --hostname https://emanuelepicariello.com"
   },
   "dependencies": {
     "@tailwindcss/line-clamp": "^0.4.4",

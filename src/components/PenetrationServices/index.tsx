@@ -37,9 +37,11 @@ export default function PenetrationServices() {
         </div>
 
         <div className="mt-12 text-center">
-          <button className="px-8 py-3 bg-[#0a2b1d] text-white rounded-lg hover:bg-[#1a4a35] transition-colors">
-            Schedule a Consultation
-          </button>
+        <a href="/book-consultation" target="_self">
+        <button className="px-8 py-3 bg-[#0a2b1d] text-white rounded-lg hover:bg-[#1a4a35] transition-colors">
+              Book a Consultation
+            </button>
+            </a>
         </div>
       </div>
     </div>

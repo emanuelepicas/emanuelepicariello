@@ -11,8 +11,8 @@ export default function RedTeamServices() {
           {/* Physical & Cyber Attack Services */}
           <div className="bg-white rounded-xl shadow-lg overflow-hidden">
             <div className="p-6">
-              <h3 className="text-xl font-semibold mb-4">Physical & Cyber Attack Services</h3>
-              <p className="text-gray-600 mb-4">
+              <h3 className="text-xl font-semibold mb-4">Physical & Cyber Attack</h3>
+              <p className="text-gray-600 mb-4 mb-4 line-clamp-2">
                 Comprehensive physical security assessment and penetration testing services.
               </p>
               <Link 
@@ -27,7 +27,7 @@ export default function RedTeamServices() {
           {/* Social Engineering Services */}
           <div className="bg-white rounded-xl shadow-lg overflow-hidden">
             <div className="p-6">
-              <h3 className="text-xl font-semibold mb-4">Social Engineering Services</h3>
+              <h3 className="text-xl font-semibold mb-4 mb-4 line-clamp-2">Social Engineering Services</h3>
               <p className="text-gray-600 mb-4">
                 Human-focused security testing and awareness training.
               </p>
@@ -40,15 +40,15 @@ export default function RedTeamServices() {
             </div>
           </div>
 
-          {/* DigitalSwarm Services */}
+          {/* APT Services */}
           <div className="bg-white rounded-xl shadow-lg overflow-hidden">
             <div className="p-6">
-              <h3 className="text-xl font-semibold mb-4">DigitalSwarm Services</h3>
-              <p className="text-gray-600 mb-4">
+              <h3 className="text-xl font-semibold mb-4">Adversary Simulation </h3>
+              <p className="text-gray-600 mb-4 mb-4 line-clamp-2">
                 Advanced digital penetration testing and security assessment.
               </p>
               <Link 
-                to="/services/digital-swarm"
+                to="/services/adversary-simulation"
                 className="inline-block px-6 py-2 bg-[#0a2b1d] text-white rounded-lg hover:bg-[#1a4a35] transition-colors"
               >
                 Learn More

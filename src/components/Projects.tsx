@@ -1,5 +1,5 @@
-import React from 'react';
-import ProjectCard from './ProjectCard';
+import React, { Suspense } from 'react';
+const ProjectCard = React.lazy(() => import('./ProjectCard'));
 
 const projects = [
   {
@@ -25,14 +25,16 @@ const projects = [
 export default function Projects() {
   return (
     <section id="projects" className="py-24 bg-gray-50">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-4xl font-bold mb-12 text-center">Featured Projects</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project) => (
-            <ProjectCard key={project.title} {...project} />
-          ))}
+      <Suspense fallback={<div className="spinner">Loading...</div>}>
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-4xl font-bold mb-12 text-center">Featured Projects</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {projects.map((project) => (
+              <ProjectCard key={project.title} {...project} />
+            ))}
+          </div>
         </div>
-      </div>
+      </Suspense>
     </section>
   );
 }

@@ -60,7 +60,12 @@ export default function Certifications() {
               className="bg-white rounded-xl shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-105"
             >
               <div className="p-6">
-                <img src={cert.image} alt={cert.title} className="w-24 h-24 mx-auto mb-4" />
+                <img
+                  loading="lazy"
+                  src={cert.image}
+                  alt={cert.title}
+                  className="w-24 h-24 mx-auto mb-4"
+                />
                 <h3 className="text-xl font-semibold mb-2 text-center">{cert.title}</h3>
                 <p className="text-gray-600 text-center">{cert.description}</p>
               </div>

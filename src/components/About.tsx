@@ -17,7 +17,8 @@ export default function About() {
           <div className="md:w-2/3">
             <h2 className="text-4xl font-bold mb-6">About Me</h2>
             <p className="text-xl text-gray-600 leading-relaxed">
-              Persevering cybersecurity professional with extensive experience in offensive security, 
+            Connecting with the world and building a secure future. <br></br>
+            Persevering cybersecurity professional with extensive experience in offensive security, 
               particularly in Red Team engagements, cloud security, and AI security.
             </p>
           </div>

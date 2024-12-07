@@ -1,6 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 export default function CalendarBooking() {
+  useEffect(() => {
+    // Scroll to top when component is mounted
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="py-24 bg-gray-50 min-h-screen">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

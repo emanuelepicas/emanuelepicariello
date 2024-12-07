@@ -6,7 +6,7 @@ const contactLinks = [
     name: 'Email',
     icon: Mail,
     url: 'mailto:info@emanuelepicariello.com',
-    color: 'hover:text-blue-500',
+    color: 'hover:text-red-500',
     label: 'info@emanuelepicariello.com'
   },
   {

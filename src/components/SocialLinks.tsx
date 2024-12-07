@@ -1,4 +1,4 @@
-import { Youtube, Linkedin, Twitter, Instagram, Github, Coffee } from 'lucide-react';
+import { Youtube, Linkedin, X, Instagram, Github, Coffee } from 'lucide-react';
 
 const socialLinks = [
   {
@@ -15,9 +15,9 @@ const socialLinks = [
   },
   {
     name: 'Twitter',
-    icon: Twitter,
-    url: 'https://twitter.com/EmanuelePicari5',
-    color: 'hover:text-blue-400'
+    icon: X,
+    url: 'https://x.com/EmanuelePicari5',
+    color: 'hover:text-black'
   },
   {
     name: 'Instagram',
@@ -27,7 +27,7 @@ const socialLinks = [
   },
   {
     name: 'TikTok',
-    icon: Youtube,
+    icon: Youtube, // Note: Replace with the actual TikTok icon if available
     url: 'https://www.tiktok.com/@emanuele.picariello_',
     color: 'hover:text-black'
   },
@@ -54,10 +54,10 @@ export default function SocialLinks() {
           href={link.url}
           target="_blank"
           rel="noopener noreferrer"
-          className={`transform transition-all duration-200 ${link.color} hover:scale-110`}
+          className={`transform transition-all duration-200 text-white ${link.color} hover:scale-110`}
           aria-label={link.name}
         >
-          <link.icon size={32} className="text-white hover:text-opacity-80" />
+          <link.icon size={32} className="text-current" />
         </a>
       ))}
     </div>

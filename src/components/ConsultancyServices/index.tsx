@@ -6,12 +6,12 @@ const services = [
   {
     title: 'Threat Modeling Services',
     description: 'Comprehensive threat analysis and vulnerability assessment.',
-    image: '/public/images/modelling.jpg', // Placeholder image
+    image: '/images/modelling.jpg', // Placeholder image
   },
   {
     title: 'Security Advisory Services',
     description: 'Expert guidance on security strategy and implementation.',
-    image: '/public/images/consultancy.jpg', // Placeholder image
+    image: '/images/consultancy.jpg', // Placeholder image
   },
 ];
 

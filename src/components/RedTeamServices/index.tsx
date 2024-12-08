@@ -6,32 +6,32 @@ const services = [
   {
     title: 'Adversarial Simulation with AI',
     description: 'Leverage AI to mimic advanced attacks and simulate adversarial behaviors, providing comprehensive insights into your vulnerabilities.',
-    image: '/public/images/AI.jpg',
+    image: '/images/AI.jpg',
   },
   {
     title: 'Chatbot and Social Engineering Attacks',
     description: 'Advanced chatbots used for automated reconnaissance, phishing, and social engineering.',
-    image: '/public/images/Chatbot.jpg',
+    image: '/images/Chatbot.jpg',
   },
   {
     title: 'AGI for Threat Emulation',
     description: 'Adaptive and intelligent threat emulation to challenge even the most secure systems.',
-    image: '/public/images/Threat.jpg',
+    image: '/images/Threat.jpg',
   },
   {
     title: 'MITRE ATT&CK & ATLAS Integration',
     description: 'Aligning threat simulations with MITRE frameworks for comprehensive and structured assessments.',
-    image: '/public/images/MITRE.jpg',
+    image: '/images/MITRE.jpg',
   },
   {
     title: 'Physical Penetration Testing',
     description: 'Assess physical security controls through real-world simulations, including on-site evaluations and access attempts.',
-    image: '/public/images/PhysicalPenetration.jpg',
+    image: '/images/PhysicalPenetration.jpg',
   },
   {
     title: 'Long-Term Red Team Testing',
     description: 'Conduct sustained assessments with advanced phishing, persistence, and stealth to simulate sophisticated threat actors.',
-    image: '/public/images/LongTermRedTeam.jpg',
+    image: '/images/LongTermRedTeam.jpg',
   },
 ];
 

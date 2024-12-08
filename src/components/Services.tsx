@@ -6,19 +6,19 @@ const services = [
   {
     title: 'Cyber Security Consultancy',
     description: 'Expert guidance on cybersecurity strategy and implementation.',
-    image: '/public/images/CyberConsultancy.jpg',
+    image: '/images/CyberConsultancy.jpg',
     link: '/services/consultancy'
   },
   {
     title: 'Red Teaming',
     description: 'Advanced adversary simulation and security assessment.',
-    image: '/public/images/RedTeaming.jpg',
+    image: '/images/RedTeaming.jpg',
     link: '/services/red-team'
   },
   {
     title: 'Penetration Testing',
     description: 'Comprehensive security testing including Black Box, White Box, Crystal Box, and White Box methodologies.',
-    image: '/public/images/PenetrationTesting.jpg',
+    image: '/images/PenetrationTesting.jpg',
     link: '/services/penetration'
   }
 ];

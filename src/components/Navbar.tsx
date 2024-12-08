@@ -24,8 +24,14 @@ export default function Navbar() {
 
   const handleNavClick = (href) => {
     if (location.pathname !== '/') {
-      // If not on the homepage, navigate to home and scroll to the section
+      // If not on the homepage, navigate to the homepage with the anchor
       window.location.href = `/#${href}`;
+    } else {
+      // On the homepage, directly scroll to the section
+      const element = document.getElementById(href);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
     }
   };
 

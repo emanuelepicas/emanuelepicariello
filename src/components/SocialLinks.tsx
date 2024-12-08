@@ -36,12 +36,6 @@ const socialLinks = [
     icon: Github,
     url: 'https://github.com/emanuelepicas',
     color: 'hover:text-gray-800'
-  },
-  {
-    name: 'Buy Me a Coffee',
-    icon: Coffee,
-    url: 'https://buymeacoffee.com/emanuelepicariello',
-    color: 'hover:text-yellow-600'
   }
 ];
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaSpotify, FaApple } from 'react-icons/fa'; // Import Spotify and Apple icons
 
 export default function GlobalPerspectiveStories() {
   return (
@@ -6,7 +7,8 @@ export default function GlobalPerspectiveStories() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl font-bold mb-8 text-center">Global Perspective Stories</h1>
         <p className="text-lg text-gray-700 mb-12 text-center indent-8">
-        We are entering a challenging period in our society, and as humans, it’s crucial to cultivate core values that unite us. This podcast aims to inspire and be inspired by sharing powerful stories and challenges from both business and life. Together, we can spark ideas and actions to improve society and make a lasting impact.        </p>
+          We are entering a challenging period in our society, and as humans, it’s crucial to cultivate core values that unite us. This podcast aims to inspire and be inspired by sharing powerful stories and challenges from both business and life. Together, we can spark ideas and actions to improve society and make a lasting impact.
+        </p>
 
         {/* Podcast Frame Placeholder */}
         <div className="bg-white rounded-xl shadow-lg p-6 mb-8">
@@ -26,21 +28,22 @@ export default function GlobalPerspectiveStories() {
 
         {/* Links to Spotify and Apple Podcast */}
         <div className="flex space-x-4 justify-center">
-          <a 
+          <a
             href="#"
-            className="inline-block px-6 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
+            className="flex items-center space-x-2 px-6 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
           >
-            Listen on Spotify
+            <FaSpotify size={20} />
+            <span>Listen on Spotify</span>
           </a>
-          <a 
+          <a
             href="#"
-            className="inline-block px-6 py-2 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-colors"
+            className="flex items-center space-x-2 px-6 py-2 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-colors"
           >
-            Listen on Apple Podcasts
+            <FaApple size={20} />
+            <span>Listen on Apple Podcasts</span>
           </a>
         </div>
       </div>
     </section>
   );
 }
-

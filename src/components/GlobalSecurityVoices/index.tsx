@@ -34,7 +34,7 @@ export default function GlobalSecurityVoices() {
             Listen on Spotify
           </a>
           <a 
-            href="#"
+            href="https://podcasts.apple.com/us/podcast/global-perspective-stories/id1784138038"
             className="inline-block px-6 py-2 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-colors"
           >
             Listen on Apple Podcasts

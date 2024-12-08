@@ -10,7 +10,7 @@ const services = [
     link: '/services/consultancy'
   },
   {
-    title: 'Red Teaming',
+    title: 'AI Red Teaming',
     description: 'Advanced adversary simulation and security assessment.',
     image: '/images/RedTeaming.jpg',
     link: '/services/red-team'

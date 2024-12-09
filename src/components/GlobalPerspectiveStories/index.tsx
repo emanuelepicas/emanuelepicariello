@@ -5,7 +5,7 @@ export default function GlobalPerspectiveStories() {
     <section className="py-24 bg-gray-50 min-h-screen">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl font-bold mb-8 text-center">Global Perspective Stories</h1>
-        <p className="text-lg text-gray-700 mb-12 text-center indent-8">
+        <p className="text-lg text-gray-700 mb-12">
         We are entering a challenging period in our society, and as humans, it’s crucial to cultivate core values that unite us. This podcast aims to inspire and be inspired by sharing powerful stories and challenges from both business and life. Together, we can spark ideas and actions to improve society and make a lasting impact.        </p>
 
         {/* Podcast Frame Placeholder */}
@@ -32,12 +32,12 @@ export default function GlobalPerspectiveStories() {
           >
             Listen on Spotify
           </a>
-          <a 
+          {/* <a 
             href="https://podcasts.apple.com/us/podcast/global-security-voices/id1783352387"
             className="inline-block px-6 py-2 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-colors"
           >
             Listen on Apple Podcasts
-          </a>
+          </a> */}
         </div>
       </div>
     </section>

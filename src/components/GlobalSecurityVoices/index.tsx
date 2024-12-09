@@ -5,7 +5,7 @@ export default function GlobalSecurityVoices() {
     <section className="py-24 bg-gray-50 min-h-screen">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl font-bold mb-8 text-center">Global Security Voices</h1>
-        <p className="text-lg text-gray-700 mb-12 text-center indent-8">
+        <p className="text-lg text-gray-700 mb-12">
         Welcome to Global Security Voices, where we explore the latest stories, trends, and insights from the world of cybersecurity. Tune in for expert discussions on offensive security, AI's role in safeguarding systems, and groundbreaking developments in the tech world. Together, we aim to connect, inform, and drive positive change in the global security landscape. Let's improve the world, one conversation at a time!
         </p>
 
@@ -33,12 +33,12 @@ export default function GlobalSecurityVoices() {
           >
             Listen on Spotify
           </a>
-          <a 
+          {/* <a 
             href="https://podcasts.apple.com/us/podcast/global-perspective-stories/id1784138038"
             className="inline-block px-6 py-2 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-colors"
           >
             Listen on Apple Podcasts
-          </a>
+          </a> */}
         </div>
       </div>
     </section>

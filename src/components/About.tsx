@@ -1,26 +1,38 @@
 import React from 'react';
 
-export default function About() {
+export default function AboutMe() {
   return (
     <section id="about" className="py-24 bg-white">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col md:flex-row items-center gap-12">
-          <div className="md:w-1/3">
-            <div className="w-64 h-64 rounded-full overflow-hidden shadow-xl mx-auto">
-              <img
-                src="/images/profile.png"
-                alt="Emanuele Picariello"
-                className="w-full h-full object-cover"
-              />
-            </div>
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Title Centered */}
+        <h2 className="text-4xl font-bold mb-12 text-center">About Me</h2>
+
+        <div className="flex flex-col md:flex-row items-center">
+          {/* Profile Section */}
+          <div className="md:w-1/3 w-full flex justify-center mb-8 md:mb-0">
+            <img
+              src="/images/profile.png" // Replace with your actual image path
+              alt="Profile of Emanuele Picariello"
+              className="w-48 h-48 rounded-full shadow-lg object-cover"
+            />
           </div>
-          <div className="md:w-2/3">
-            <h2 className="text-4xl font-bold mb-6">About Me</h2>
-            <p className="text-xl text-gray-600 leading-relaxed">
-            Connecting with the world and building a secure future. <br></br>
-            Persevering cybersecurity professional with extensive experience in offensive security, 
-              particularly in Red Team engagements, cloud security, and AI security.
-            </p>
+
+          {/* Text Section */}
+          <div className="md:w-2/3 w-full">
+            <div className="bg-gray-50 p-6 rounded-lg shadow-md">
+              <p className="text-lg text-gray-700 leading-relaxed mb-6 text-justify">
+                From a young age, I’ve been captivated by the dual nature of technology: its immense potential to transform lives and its vulnerabilities that demand constant vigilance. This curiosity led me to specialize in cybersecurity, earning certifications like OSCP, CRTO, and more. Along the way, I’ve collaborated with businesses to safeguard their systems, building resilience in an ever-evolving digital landscape.
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed mb-6 text-justify">
+                But my mission goes far beyond cybersecurity. I’m actively working on two podcast projects, <strong>Global Security Voices</strong> and <strong>Global Perspective Stories</strong>, where I explore ideas and narratives that inspire global change. These initiatives are part of a larger vision: to help create a better world. I believe that with the right people, professional expertise, and relentless effort, we can improve the overall world systems by at least 20%.
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed mb-6 text-justify">
+                I understand that the challenges ahead are immense. Building a better world requires delving into fields like neuroscience, macroeconomics, and more. But this is my calling, my purpose. I’m committed to learning, collaborating, and working tirelessly because I truly believe that even incremental progress can spark profound change.
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed text-justify">
+                When I’m not immersed in this journey, I’m exploring cutting-edge technologies, refining my podcasts, or recharging through weightlifting, a reminder of the strength we all possess to push boundaries and create something extraordinary.
+              </p>
+            </div>
           </div>
         </div>
       </div>

@@ -5,21 +5,24 @@ import { motion } from 'framer-motion';
 const services = [
   {
     title: 'Cyber Security Consultancy',
-    description: 'Expert guidance on cybersecurity strategy and implementation.',
+    description: 'Is your cybersecurity strategy prepared to tackle today’s evolving threats?',
     image: '/images/CyberConsultancy.jpg',
-    link: '/services/consultancy'
+    link: '/services/consultancy',
+    buttonText: 'Get Started'
   },
   {
     title: 'AI Red Teaming',
-    description: 'Advanced adversary simulation and security assessment.',
+    description: 'Are your systems ready to withstand AI-driven attacks from advanced adversaries?',
     image: '/images/RedTeaming.jpg',
-    link: '/services/red-team'
+    link: '/services/red-team',
+    buttonText: 'Get Started'
   },
   {
     title: 'Penetration Testing',
-    description: 'Comprehensive security testing including Black Box, White Box, Crystal Box, and White Box methodologies.',
+    description: 'How resilient are your systems and company against real-world cyberattacks?',
     image: '/images/PenetrationTesting.jpg',
-    link: '/services/penetration'
+    link: '/services/penetration',
+    buttonText: 'Get Started'
   }
 ];
 
@@ -32,7 +35,7 @@ export default function Services() {
         exit={{ opacity: 0 }}
         className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8"
       >
-        <h2 className="text-4xl font-bold mb-12 text-center">Book a Service</h2>
+        <h2 className="text-4xl font-bold mb-12 text-center">Our Services</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service) => (
             <motion.div
@@ -49,13 +52,13 @@ export default function Services() {
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
-                <p className="text-gray-600 mb-4 line-clamp-2">{service.description}</p>
+                <h3 className="text-xl font-semibold mb-2 text-center">{service.title}</h3>
+                <p className="text-gray-600 mb-4 text-center">{service.description}</p>
                 <Link
                   to={service.link}
-                  className="inline-block px-6 py-2 bg-[#0a2b1d] text-white rounded-lg hover:bg-[#1a4a35] transition-colors"
+                  className="inline-block px-6 py-2 bg-[#0a2b1d] text-white rounded-lg hover:bg-[#1a4a35] transition-colors text-center w-full"
                 >
-                  Book now
+                  {service.buttonText}
                 </Link>
               </div>
             </motion.div>

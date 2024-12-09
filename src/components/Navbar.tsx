@@ -9,11 +9,11 @@ export default function Navbar() {
 
   const navItems = [
     { href: 'about', label: 'About Me' },
-    { href: 'projects', label: 'Projects' },
     { href: 'certifications', label: 'Certifications' },
-    { href: 'blog', label: 'Blog' },
-    { href: 'contact', label: 'Contact' },
     { href: 'services', label: 'Book a Service' },
+    { href: 'projects', label: 'Projects' },
+  //  { href: 'blog', label: 'Blog' },
+    { href: 'contact', label: 'Contact' },
   ];
 
   useEffect(() => {

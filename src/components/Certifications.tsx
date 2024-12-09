@@ -1,5 +1,4 @@
 import React from 'react';
-import { motion } from 'framer-motion';
 
 const certifications = [
   {
@@ -13,12 +12,6 @@ const certifications = [
     link: 'https://portswigger.net/web-security/e/c/07c1e0a7a6089ea5',
     description: 'Validates skills in web application security testing using Burp Suite.',
     image: '/images/bscp.png'
-  },
-  {
-    title: 'eWPT',
-    link: 'https://verified.elearnsecurity.com/certificates/a0d3ea6a-4083-47ce-a001-8813d8c1c260',
-    description: 'Covers comprehensive knowledge of web application penetration testing methodologies.',
-    image: '/images/eWPTX.png'
   },
   {
     title: 'eWPTX',
@@ -51,46 +44,28 @@ export default function Certifications() {
     <section id="certifications" className="py-24 bg-gray-50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl font-bold mb-12 text-center">Certifications</h2>
-        <motion.div
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
-          initial="hidden"
-          animate="visible"
-          variants={{
-            hidden: { opacity: 0, scale: 0.8 },
-            visible: {
-              opacity: 1,
-              scale: 1,
-              transition: { delay: 0.2, staggerChildren: 0.2 }
-            }
-          }}
-        >
-          {certifications.map((cert, index) => (
-            <motion.a
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {certifications.map((cert) => (
+            <a
               key={cert.title}
               href={cert.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white rounded-xl shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-105"
-              whileHover={{ scale: 1.1 }}
-              variants={{
-                hidden: { opacity: 0, y: 20 },
-                visible: { opacity: 1, y: 0 }
-              }}
+              className="bg-white rounded-xl shadow-lg overflow-hidden"
             >
-              <div className="p-6">
-                <motion.img
+              <div className="flex flex-col items-center p-6">
+                <img
                   loading="lazy"
                   src={cert.image}
                   alt={cert.title}
-                  className="w-24 h-24 mx-auto mb-4"
-                  whileHover={{ rotate: 5 }}
+                  className="w-24 h-24 object-contain mb-4"
                 />
                 <h3 className="text-xl font-semibold mb-2 text-center">{cert.title}</h3>
                 <p className="text-gray-600 text-center">{cert.description}</p>
               </div>
-            </motion.a>
+            </a>
           ))}
-        </motion.div>
+        </div>
       </div>
     </section>
   );

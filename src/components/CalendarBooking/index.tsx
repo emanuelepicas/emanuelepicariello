@@ -8,7 +8,7 @@ export default function CalendarBooking() {
   return (
     <div className="py-24 bg-gray-50 min-h-screen">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-bold mb-8 text-center">Schedule a 30-Minute Consultation</h2>
+        <h2 className="text-3xl font-bold mb-8 text-center">Schedule a 30-Minute FREE Consultation</h2>
         <div className="mt-6">
             <h3 className="text-xl font-semibold mb-4">What to Expect</h3>
             <ul className="list-disc list-inside text-gray-600 space-y-2">

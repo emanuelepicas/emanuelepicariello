@@ -19,7 +19,12 @@ export default function AboutMe() {
 
           {/* Text Section */}
           <div className="md:w-2/3 w-full">
-            <div className="bg-gray-50 p-6 rounded-lg shadow-md">
+            <div
+              className="bg-gray-50 p-6 rounded-lg shadow-md"
+              style={{
+                boxShadow: 'inset 0 4px 10px rgba(0, 128, 0, 0.15)', // Green inner shadow
+              }}
+            >
               <p className="text-lg text-gray-700 leading-relaxed mb-6 text-justify">
                 From a young age, I’ve been attracted by the dual nature of technology: its immense potential to transform lives and its vulnerabilities that demand constant vigilance. This curiosity led me to specialize in cybersecurity, earning certifications like OSCP, OSEP, CRTO, and more. Along the way, I’ve collaborated with businesses to safeguard their systems, building resilience in an evolving digital landscape.
               </p>

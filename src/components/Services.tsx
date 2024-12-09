@@ -12,7 +12,7 @@ const services = [
   },
   {
     title: 'AI Red Teaming',
-    description: 'Are your systems ready to withstand AI-driven attacks from advanced adversaries?',
+    description: 'Are your systems ready to withstand AI-driven attacks from adversaries?',
     image: '/images/RedTeaming.jpg',
     link: '/services/red-team',
     buttonText: 'Get Started'

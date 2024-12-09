@@ -31,9 +31,9 @@ function App() {
                 <>
                   <Hero />
                   <About />
+                  <Services />
                   <Certifications />
                   <Projects />
-                  <Services />
                   <Contact />
                 </>
               }

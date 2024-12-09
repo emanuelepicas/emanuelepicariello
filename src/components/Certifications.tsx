@@ -60,8 +60,8 @@ export default function Certifications() {
                   alt={cert.title}
                   className="w-24 h-24 object-contain mb-4"
                 />
-                <h3 className="text-xl font-semibold mb-2 text-center">{cert.title}</h3>
-                <p className="text-gray-600 text-center">{cert.description}</p>
+                <h3 className="text-l font-semibold mb-2 text-center">{cert.title}</h3>
+                <p className="text-gray-500 mb-4 line-clamp-2">{cert.description}</p>
               </div>
             </a>
           ))}

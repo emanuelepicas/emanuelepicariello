@@ -9,7 +9,7 @@ const services = [
     image: '/images/AI.jpg',
   },
   {
-    title: 'Chatbot and Social Engineering Attacks',
+    title: 'Chatbot and Social Engineering',
     description: 'Advanced chatbots used for automated reconnaissance, phishing, and social engineering.',
     image: '/images/Chatbot.jpg',
   },
@@ -19,7 +19,7 @@ const services = [
     image: '/images/Threat.jpg',
   },
   {
-    title: 'MITRE ATT&CK & ATLAS Integration',
+    title: 'MITRE ATT&CK & ATLAS',
     description: 'Aligning threat simulations with MITRE frameworks for comprehensive and structured assessments.',
     image: '/images/MITRE.jpg',
   },

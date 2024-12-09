@@ -52,8 +52,8 @@ export default function Services() {
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2 text-center">{service.title}</h3>
-                <p className="text-gray-600 mb-4 text-center">{service.description}</p>
+                <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
+                <p className="text-gray-600 mb-4 line-clamp-2">{service.description}</p>
                 <Link
                   to={service.link}
                   className="inline-block px-6 py-2 bg-[#0a2b1d] text-white rounded-lg hover:bg-[#1a4a35] transition-colors text-center w-full"

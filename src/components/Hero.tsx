@@ -33,7 +33,7 @@ export default function Hero() {
         <div className="flex-1 flex flex-col">
           <div className="text-center text-white px-4 hero-title mt-32 md:mt-40 lg:mt-48">
             <p
-              className={`font-light tracking-wide leading-relaxed ${isMobile ? 'text-l' : 'text-4l md:text-3l lg:text-4l'}`}
+              className={`font-light tracking-wide leading-relaxed ${isMobile ? 'text-2xl' : 'text-4xl md:text-3xl lg:text-4xl'}`}
             >
               Cybersecurity Professional | Tech Enthusiast | Content Creator
             </p>

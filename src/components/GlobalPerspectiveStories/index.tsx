@@ -10,12 +10,12 @@ export default function GlobalPerspectiveStories() {
 
         {/* Podcast Frame Placeholder */}
         <div className="bg-white rounded-xl shadow-lg p-6 mb-8">
-          <h2 className="text-2xl font-semibold mb-4">Latest Episode</h2>
+          <h2 className="text-2xl font-semibold mb-4">All Episodes</h2>
           <div className="border border-gray-300 rounded-lg overflow-hidden">
             <iframe
               width="100%"
-              height="400"
-              src="https://www.youtube.com/embed/ccweFt8NtJc"
+              height="500"
+              src="https://www.youtube.com/embed/videoseries?list=PL16wrrijM0H_ETSY4QEpyRp_IXYpXlm0z"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

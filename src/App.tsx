@@ -15,6 +15,8 @@ import ConsultancyServices from './components/ConsultancyServices';
 import CalendarBooking from './components/CalendarBooking';
 import GlobalSecurityVoices from './components/GlobalSecurityVoices';
 import GlobalPerspectiveStories from './components/GlobalPerspectiveStories';
+import PrivacyPolicy from './components/PrivacyPolicy';
+import TermsOfService from './components/TermsOfService';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
@@ -44,6 +46,8 @@ function App() {
             <Route path="/book-consultation" element={<CalendarBooking />} />
             <Route path="/projects/global-security-voices" element={<GlobalSecurityVoices />} />
             <Route path="/projects/global-perspective-stories" element={<GlobalPerspectiveStories />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/terms-of-services" element={<TermsOfService />} />
           </Routes>
         </div>
         <Footer /> {/* Footer always at the bottom */}

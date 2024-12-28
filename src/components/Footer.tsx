@@ -12,10 +12,10 @@ export default function Footer() {
               © 2024 Emanuele Picariello. All rights reserved.
             </div>
             <div className="flex gap-6">
-              <a href="#" className="text-white hover:text-[#7cffb2] transition-colors">
+              <a href="/privacy-policy" className="text-white hover:text-[#7cffb2] transition-colors">
                 Privacy Policy
               </a>
-              <a href="#" className="text-white hover:text-[#7cffb2] transition-colors">
+              <a href="/terms-of-services" className="text-white hover:text-[#7cffb2] transition-colors">
                 Terms of Service
               </a>
             </div>

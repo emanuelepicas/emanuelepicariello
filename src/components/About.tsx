@@ -26,7 +26,7 @@ export default function AboutMe() {
               }}
             >
               <p className="text-lg text-gray-700 leading-relaxed mb-6 text-justify">
-                From a young age, I’ve been attracted by the dual nature of technology: its immense potential to transform lives and its vulnerabilities that demand constant vigilance. This curiosity led me to specialize in cybersecurity, earning certifications like OSCP, OSEP, CRTO, and more. Along the way, I’ve collaborated with businesses to safeguard their systems, building resilience in an evolving digital landscape.
+                From a young age, I’ve been attracted by the dual nature of technology: its immense potential to transform lives and its vulnerabilities that demand constant vigilance. This curiosity led me to specialize in cybersecurity, earning certifications like <strong>OSCP</strong>, <strong>OSEP</strong>, <strong>CRTO</strong>, and more. Along the way, I’ve collaborated with businesses to safeguard their systems, building resilience in an evolving digital landscape.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed mb-6 text-justify">
                 But my mission goes far beyond cybersecurity. I’m actively working on two podcast projects, <strong>Global Security Voices</strong> and <strong>Global Perspective Stories</strong>, where I explore ideas and narratives that inspire global change. These initiatives are part of a larger vision: to help create a better world. I believe that with the right people, professional expertise, and relentless effort, we can improve the overall world systems by at least 20%.

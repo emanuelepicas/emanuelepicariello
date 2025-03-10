@@ -11,7 +11,7 @@ export default function AboutMe() {
           {/* Profile Section */}
           <div className="md:w-1/3 w-full flex justify-center mb-8 md:mb-0">
             <img
-              src="/images/profile.png" // Replace with your actual image path
+              src="/images/profile.png" 
               alt="Profile of Emanuele Picariello"
               className="w-48 h-48 rounded-full shadow-lg object-cover"
             />

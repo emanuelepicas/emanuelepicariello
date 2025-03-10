@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="mt-8 pt-8 border-t border-[#1a4a35]">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-white mb-4 md:mb-0">
-              © 2024 Emanuele Picariello. All rights reserved.
+              © 2025 Emanuele Picariello. All rights reserved.
             </div>
             <div className="flex gap-6">
               <a href="/privacy-policy" className="text-white hover:text-[#7cffb2] transition-colors">

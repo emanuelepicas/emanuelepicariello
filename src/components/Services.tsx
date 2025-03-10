@@ -4,14 +4,14 @@ import { motion } from 'framer-motion';
 
 const services = [
   {
-    title: 'Cyber Security Consultancy',
+    title: 'Cybersecurity Consultancy',
     description: 'Is your cybersecurity strategy prepared to tackle today’s evolving threats?',
     image: '/images/CyberConsultancy.jpg',
     link: '/services/consultancy',
     buttonText: 'Get Started'
   },
   {
-    title: 'AI Red Teaming',
+    title: 'AI services & Red Teaming',
     description: 'Are your systems ready to withstand AI-driven attacks from adversaries?',
     image: '/images/RedTeaming.jpg',
     link: '/services/red-team',

@@ -19,7 +19,7 @@ export default function ConsultancyServices() {
   return (
     <section className="py-24 bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-4xl font-bold mb-12 text-center">Cyber Security Consultancy</h2>
+        <h2 className="text-4xl font-bold mb-12 text-center">Cybersecurity Consultancy</h2>
         <motion.div
           className="grid grid-cols-1 md:grid-cols-2 gap-12"
           initial={{ opacity: 0 }}

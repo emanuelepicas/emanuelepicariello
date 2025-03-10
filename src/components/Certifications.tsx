@@ -2,24 +2,6 @@ import React from 'react';
 
 const certifications = [
   {
-    title: 'Red Hat Certified System Administrator',
-    link: 'https://www.credly.com/badges/29afb1d6-fcf2-4be8-b860-c797d94a51db/public_url',
-    description: 'Demonstrates proficiency in managing and administering Red Hat Enterprise Linux environments.',
-    image: '/images/RedHatCertifiedSystemAdministrator.png'
-  },
-  {
-    title: 'Burp Suite Certified Practitioner',
-    link: 'https://portswigger.net/web-security/e/c/07c1e0a7a6089ea5',
-    description: 'Validates skills in web application security testing using Burp Suite.',
-    image: '/images/bscp.png'
-  },
-  {
-    title: 'eWPTX',
-    link: 'https://verified.elearnsecurity.com/certificates/02f39488-253d-44e6-9036-df723515f12a',
-    description: 'Advanced certification focusing on complex web application vulnerabilities and exploits.',
-    image: '/images/eWPTxv2.png'
-  },
-  {
     title: 'OSCP',
     link: 'https://www.credential.net/a8693bbe-37d3-4133-aeb9-b8893599cbe6',
     description: 'Recognizes practical skills in penetration testing and ethical hacking techniques.',
@@ -36,6 +18,24 @@ const certifications = [
     link: 'https://eu.badgr.com/public/assertions/UZ6-r3tfSYetcl2bcM2tKg',
     description: 'Validates expertise in conducting red team engagements simulating advanced adversaries.',
     image: '/images/crto.png'
+  },
+  {
+    title: 'Red Hat Certified System Administrator',
+    link: 'https://www.credly.com/badges/29afb1d6-fcf2-4be8-b860-c797d94a51db/public_url',
+    description: 'Demonstrates proficiency in managing and administering Red Hat Enterprise Linux environments.',
+    image: '/images/RedHatCertifiedSystemAdministrator.png'
+  },
+  {
+    title: 'Burp Suite Certified Practitioner',
+    link: 'https://portswigger.net/web-security/e/c/07c1e0a7a6089ea5',
+    description: 'Validates skills in web application security testing using Burp Suite.',
+    image: '/images/bscp.png'
+  },
+  {
+    title: 'eWPTX',
+    link: 'https://verified.elearnsecurity.com/certificates/02f39488-253d-44e6-9036-df723515f12a',
+    description: 'Advanced certification focusing on complex web application vulnerabilities and exploits.',
+    image: '/images/eWPTxv2.png'
   }
 ];
 

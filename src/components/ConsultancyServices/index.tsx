@@ -4,13 +4,13 @@ import { Link } from 'react-router-dom';
 
 const services = [
   {
-    title: 'Threat Modeling Services',
-    description: 'Comprehensive threat analysis and vulnerability assessment.',
+    title: 'AI-Powered Business Consultancy',
+    description: 'Supercharge your business with AI tools, automation, and process optimization. From AI agents to low-code platforms, we help you identify real opportunities and implement smart, scalable solutions.',
     image: '/images/modelling.jpg', // Placeholder image
   },
   {
     title: 'Security Advisory Services',
-    description: 'Expert guidance on security strategy and implementation.',
+    description: 'Unlock expert guidance to align your cybersecurity strategy with business goals. From risk assessments to policy design, we help you build resilient systems, mitigate threats, and stay ahead of evolving digital risks.',
     image: '/images/consultancy.jpg', // Placeholder image
   },
 ];
@@ -19,7 +19,7 @@ export default function ConsultancyServices() {
   return (
     <section className="py-24 bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-4xl font-bold mb-12 text-center">Cybersecurity Consultancy</h2>
+        <h2 className="text-4xl font-bold mb-12 text-center">AI Automation & Cybersecurity Consultancy</h2>
         <motion.div
           className="grid grid-cols-1 md:grid-cols-2 gap-12"
           initial={{ opacity: 0 }}
@@ -50,7 +50,7 @@ export default function ConsultancyServices() {
             to="/book-consultation"
             className="px-10 py-4 bg-[#0a2b1d] text-white text-lg font-bold rounded-lg shadow-lg hover:bg-[#1a4a35] transition-colors"
           >
-            Book Now
+            Schedule a Security Consultation
           </Link>
         </div>
       </div>

@@ -4,25 +4,25 @@ import { motion } from 'framer-motion';
 
 const services = [
   {
-    title: 'Cybersecurity Consultancy',
-    description: 'Is your cybersecurity strategy prepared to tackle today’s evolving threats?',
+    title: 'AI Automation & Consultancy',
+    description: 'Smart automation and AI integration.',
     image: '/images/CyberConsultancy.jpg',
     link: '/services/consultancy',
-    buttonText: 'Get Started'
+    buttonText: 'Request a Service Overview'
   },
   {
-    title: 'AI services & Red Teaming',
-    description: 'Are your systems ready to withstand AI-driven attacks from adversaries?',
+    title: 'AI Red Teaming',
+    description: 'Test your defenses again AI simulations!',
     image: '/images/RedTeaming.jpg',
     link: '/services/red-team',
-    buttonText: 'Get Started'
+    buttonText: 'Request a Service Overview'
   },
   {
     title: 'Penetration Testing',
-    description: 'How resilient are your systems and company against real-world cyberattacks?',
+    description: 'How resilient are your systems?',
     image: '/images/PenetrationTesting.jpg',
     link: '/services/penetration',
-    buttonText: 'Get Started'
+    buttonText: 'Request a Service Overview'
   }
 ];
 

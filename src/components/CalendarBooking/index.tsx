@@ -12,7 +12,7 @@ export default function CalendarBooking() {
         <div className="mt-6">
             <h3 className="text-xl font-semibold mb-4">What to Expect</h3>
             <ul className="list-disc list-inside text-gray-600 space-y-2">
-              <li>Initial security assessment discussion</li>
+              <li>Initial assessment discussion</li>
               <li>Service overview and recommendations</li>
               <li>Custom solution planning</li>
               <li>Pricing and timeline discussion</li>

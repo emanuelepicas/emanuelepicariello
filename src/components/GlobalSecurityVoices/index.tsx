@@ -28,7 +28,7 @@ export default function GlobalSecurityVoices() {
         {/* Links to Spotify */}
         <div className="flex space-x-4 justify-center">
           <a 
-            href="https://creators.spotify.com/pod/show/emanuele-picariello6"
+            href="https://open.spotify.com/show/6neXHnXx66OBUTPHsPNDwV?si=s10L6sxSTBa68qXSyLrvFA&nd=1&dlsi=dacce64f348c44e7"
             className="inline-block px-6 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
           >
             Listen on Spotify

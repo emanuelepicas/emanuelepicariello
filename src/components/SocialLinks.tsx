@@ -4,7 +4,7 @@ const socialLinks = [
   {
     name: 'YouTube',
     icon: Youtube,
-    url: 'https://youtube.com/@emanuelepicariello',
+    url: 'https://www.youtube.com/@emanuelepicariello/?sub_confirmation=1',
     color: 'hover:text-red-600'
   },
   {

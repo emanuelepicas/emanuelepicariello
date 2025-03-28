@@ -50,7 +50,7 @@ export default function ConsultancyServices() {
             to="/book-consultation"
             className="px-10 py-4 bg-[#0a2b1d] text-white text-lg font-bold rounded-lg shadow-lg hover:bg-[#1a4a35] transition-colors"
           >
-            Schedule a Security Consultation
+            Schedule a Consultation
           </Link>
         </div>
       </div>

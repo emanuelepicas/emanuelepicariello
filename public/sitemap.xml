@@ -6,26 +6,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://emanuelepicariello.com/services/red-team</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://emanuelepicariello.com/services/penetration</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://emanuelepicariello.com/services/consultancy</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://emanuelepicariello.com/book-consultation</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://emanuelepicariello.com/projects/global-security-voices</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

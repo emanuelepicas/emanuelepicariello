@@ -4,7 +4,7 @@ const socialLinks = [
   {
     name: 'YouTube',
     icon: Youtube,
-    url: 'https://www.youtube.com/@emanuelepicariello/?sub_confirmation=1',
+    url: 'https://www.youtube.com/@emanuelepicariello/',
     color: 'hover:text-red-600'
   },
   {
@@ -22,13 +22,13 @@ const socialLinks = [
   {
     name: 'Instagram',
     icon: Instagram,
-    url: 'https://www.instagram.com/youtube.emanuele.picariello',
+    url: 'https://www.instagram.com/podcast.emanuele.picariello/',
     color: 'hover:text-pink-600'
   },
   {
     name: 'TikTok',
     icon: Youtube, // Note: Replace with the actual TikTok icon if available
-    url: 'https://www.tiktok.com/@emanuele.picariello_',
+    url: 'https://www.tiktok.com/@podcast.emanuele.pica',
     color: 'hover:text-black'
   },
   {

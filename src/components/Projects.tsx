@@ -17,8 +17,8 @@ const projects = [
   {
     title: 'YouTube',
     description: 'Empower. Secure. Evolve. | Connecting with the world and building a secure future',
-    image: '/images/YouTube.png',
-    link: 'https://www.youtube.com/@emanuelepicariello/?sub_confirmation=1'
+    image: '/images/EmanuelePicarielloYouTube.png',
+    link: 'https://www.youtube.com/@emanuelepicariello/'
   }
 ];
 

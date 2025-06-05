@@ -35,7 +35,7 @@ export default function Hero() {
             <p
               className={`font-light tracking-wide leading-relaxed ${isMobile ? 'text-2xl' : 'text-4xl md:text-3xl lg:text-4xl'}`}
             >
-              Cybersecurity Expert | Public Speaker | Business Security
+              Cybersecurity Expert
             </p>
           </div>
         </div>

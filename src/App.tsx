@@ -5,14 +5,8 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Projects from './components/Projects';
 import Certifications from './components/Certifications';
-//import Blog from './components/Blog';
-import Services from './components/Services';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import RedTeamServices from './components/RedTeamServices';
-import PenetrationServices from './components/PenetrationServices';
-import ConsultancyServices from './components/ConsultancyServices';
-import CalendarBooking from './components/CalendarBooking';
 import GlobalSecurityVoices from './components/GlobalSecurityVoices';
 import GlobalPerspectiveStories from './components/GlobalPerspectiveStories';
 import PrivacyPolicy from './components/PrivacyPolicy';
@@ -33,17 +27,12 @@ function App() {
                 <>
                   <Hero />
                   <About />
-                  <Services />
                   <Certifications />
                   <Projects />
                   <Contact />
                 </>
               }
             />
-            <Route path="/services/red-team" element={<RedTeamServices />} />
-            <Route path="/services/penetration" element={<PenetrationServices />} />
-            <Route path="/services/consultancy" element={<ConsultancyServices />} />
-            <Route path="/book-consultation" element={<CalendarBooking />} />
             <Route path="/projects/global-security-voices" element={<GlobalSecurityVoices />} />
             <Route path="/projects/global-perspective-stories" element={<GlobalPerspectiveStories />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />

@@ -26,17 +26,18 @@ export default function AboutMe() {
               }}
             >
               <p className="text-lg text-gray-700 leading-relaxed mb-6 text-justify">
-              In today's rapidly evolving threat landscape, organizations face sophisticated adversaries leveraging AI and automation to breach defenses. My mission is to help forward-thinking businesses stay ahead of these threats through advanced cybersecurity testing, AI-enhanced red teaming, and strategic security consulting.
-              </p>
-              <p className="text-lg text-gray-700 leading-relaxed mb-6 text-justify">
-                But my mission goes far beyond cybersecurity. I’m actively working on two podcast projects, <strong>Global Security Voices</strong> and <strong>Global Perspective Stories</strong>, where I explore ideas and narratives that inspire global change. These initiatives are part of a larger vision: to help create a better world. I believe that with the right people, professional expertise, and relentless effort, we can improve the overall world systems by at least 20%.
-              </p>
-              <p className="text-lg text-gray-700 leading-relaxed mb-6 text-justify">
-                I understand that the challenges ahead are immense. Building a better world requires delving into fields like neuroscience, macroeconomics, and more. But this is my calling, my purpose. I’m committed to learning, collaborating, and working tirelessly because I truly believe that even incremental progress can spark profound change.
-              </p>
-              <p className="text-lg text-gray-700 leading-relaxed text-justify">
-                When I’m not immersed in this journey, I’m exploring new technologies and opportunities, refining my podcasts, or recharging through weightlifting, a reminder of the strength we all possess to push boundaries and create something extraordinary.
-              </p>
+  In today's digital age, our world is increasingly shaped by complex systems and emerging technologies. From AI-driven tools to rapidly evolving digital infrastructures, understanding and navigating these developments requires constant curiosity, resilience, and a passion for innovation.
+</p>
+<p className="text-lg text-gray-700 leading-relaxed mb-6 text-justify">
+  But my mission goes far beyond cybersecurity. I’m actively working on two podcast projects, <strong>Global Security Voices</strong> and <strong>Global Perspective Stories</strong>, where I explore ideas and narratives that inspire global change. These initiatives are part of a larger vision: to help create a better world. I believe that with the right people, professional expertise, and relentless effort, we can improve the overall world systems by at least 20%.
+</p>
+<p className="text-lg text-gray-700 leading-relaxed mb-6 text-justify">
+  I understand that the challenges ahead are immense. Building a better world requires delving into fields like neuroscience, macroeconomics, and more. But this is my calling, my purpose. I’m committed to learning, collaborating, and working tirelessly because I truly believe that even incremental progress can spark profound change.
+</p>
+<p className="text-lg text-gray-700 leading-relaxed text-justify">
+  When I’m not immersed in this journey, I’m exploring new technologies and opportunities, refining my podcasts, or recharging through weightlifting, a reminder of the strength we all possess to push boundaries and create something extraordinary.
+</p>
+
             </div>
           </div>
         </div>
